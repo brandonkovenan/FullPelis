@@ -11,7 +11,7 @@ import Footer from './Footer'
 
 class App extends Component {
   componentDidMount() {
-    // setInterval(this.props.updateFecha, 1000)
+   setInterval(this.props.updateFecha, 1000)
   }
   render() {
     return (

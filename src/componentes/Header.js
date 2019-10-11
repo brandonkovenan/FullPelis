@@ -77,7 +77,7 @@ class Header extends React.Component {
     render() {
         return (
             <Contendor>
-                <a href="http://localhost:3000"> <h3>Home</h3></a>
+                <a href="https://elastic-almeida-691a4a.netlify.com/"> <h3>Home</h3></a>
                 <h2>Full Peliculas</h2>
                 {this.props.path === "/" &&
                     <Search
