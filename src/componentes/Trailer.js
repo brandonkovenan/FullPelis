@@ -1,19 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-// import TituloTrailer from './TituloTrailer'
-
-
 
 const urlbaseVideoYoutube = 'https://www.youtube.com/embed/'
-
-
-// const Cargando = styled.div`
-//     text-align:center;
-//     font-size:22px;
-
-
-// `;
-
 
 
 const Container = styled.div`
@@ -29,14 +17,10 @@ const Video = styled.iframe`
     margin-left: 145%;
 `;
 
-
-// console.log(Video, "No esta pegando el key del video trailer a la Url de Youtube");
-
 export default ({ results }) => {
     if (results !== "video_generico") {
         return (
             <Container>
-                {/* <TituloTrailer>Trailer de la Pelicula: </TituloTrailer> */}
                 <Video src={urlbaseVideoYoutube + results}></Video>
             </Container>
         )

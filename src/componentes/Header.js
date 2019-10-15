@@ -47,10 +47,6 @@ const Fecha = styled.div`
     color:#EFB300;
 
  `
-//  const Search =styled.div`
-//     margin-left: 75%;
- 
-//  `
 
 class Header extends React.Component {
     state = {
