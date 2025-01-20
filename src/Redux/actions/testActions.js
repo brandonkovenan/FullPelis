@@ -1,8 +1,8 @@
-import tipos from './tipos'
+import tipos from "./tipos";
 
-export const updateFecha =()=>{
-    return{
-        type:tipos.UPDATE_FECHA,
-        payload:new Date()
-    }
-}
+export const updateFecha = () => {
+  return {
+    type: tipos.UPDATE_FECHA,
+    payload: new Date(),
+  };
+};
